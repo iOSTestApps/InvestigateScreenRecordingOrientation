@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import BuddyBuildSDK
 
 class ViewController: UIViewController {
 
@@ -21,6 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func boom(_ sender: Any) {
+        BuddyBuildSDK.crash()
     }
 
 }
